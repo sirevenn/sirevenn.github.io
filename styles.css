@@ -202,7 +202,16 @@ h2.center { text-align: center; }
   font-size: 56px;
   font-weight: 700;
   color: var(--emerald);
+ 
 }
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .about-copy p { color: var(--slate-300); margin-bottom: 18px; max-width: 640px; }
 .about-differentiator {
   display: flex;
